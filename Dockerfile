@@ -1,7 +1,7 @@
 FROM python:3.10-slim-buster
 #FROM python:3.6.9-slim-buster
 
-WORKDIR .
+WORKDIR ./analytics
 
 RUN apt update -y
 
