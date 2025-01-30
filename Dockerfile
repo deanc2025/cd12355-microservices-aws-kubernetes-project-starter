@@ -1,7 +1,7 @@
 FROM python:3.10-slim-buster
 #FROM python:3.6.9-slim-buster
 
-WORKDIR ./analytics
+WORKDIR .
 
 RUN apt update -y
 
@@ -12,7 +12,7 @@ RUN pip install --upgrade pip setuptools wheel
 RUN pwd
 
 
-COPY . .
+COPY ./analytics .
 
 RUN pip install -r requirements.txt
 RUN pip install Flask==2.2.2 Werkzeug==2.2.2
