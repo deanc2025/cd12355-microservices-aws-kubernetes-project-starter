@@ -28,7 +28,5 @@ spec:
           name: postgresql-storage
       volumes:
       - name: postgresql-storage
-        p
-        
-        ersistentVolumeClaim:
+        persistentVolumeClaim:
           claimName: postgresql-pvc
