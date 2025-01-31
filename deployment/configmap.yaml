@@ -5,15 +5,15 @@ metadata:
   #name: <SERVICE_NAME>-postgresql
 
 data:
-  DB_NAME: deandatabase
-  DB_USER: dean
-  DB_HOST: postgresql-service
-  DB_PORT: 5432
+  DB_NAME: "deandatabase"
+  DB_USERNAME: "dean"
+  DB_HOST: "postgresql-service"
+  DB_PORT: "5432"
 ---
-apiVersion: v1
-kind: Secret
-metadata:
-  name: deansecret
-type: Opaque
-data:
-  password: cGFzc3dvcmQxMjM
+# apiVersion: v1
+# kind: Secret
+# metadata:
+#   name: "deansecret"
+# type: Opaque
+# data:
+#   password: "cGFzc3dvcmQxMjM"
