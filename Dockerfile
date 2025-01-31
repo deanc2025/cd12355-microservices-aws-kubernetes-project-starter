@@ -1,6 +1,6 @@
 #FROM python:3.10-slim-buster
 #FROM python:3.6.9-slim-buster
-FROM --platform=linux/amd64 python:3.10-slim-buster
+FROM --platform=linux/arm64/v8 python:3.10-slim-buster
 
 WORKDIR .
 
