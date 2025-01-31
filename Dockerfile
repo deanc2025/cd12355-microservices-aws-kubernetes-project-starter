@@ -12,7 +12,6 @@ RUN pip install --upgrade pip setuptools wheel
 
 RUN pwd
 
-
 COPY ./analytics .
 
 RUN pip install -r requirements.txt
